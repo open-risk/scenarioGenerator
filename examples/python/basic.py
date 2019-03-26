@@ -33,6 +33,8 @@ output_dataset_path = source_path + "datasets/"
 print("> Load a correlation matrix")
 input_filename = output_dataset_path + 'correlation_data.json'
 Omega = np.array(json.load(open(input_filename))['correlation_matrix'])
+print(Omega)
 
 myESG = sg.scenarioGenerator(dim=Omega.shape[0], Omega=Omega)
 myESG.decompose()
+print(np.dot(myESG.L, myESG.L.T))
