@@ -14,7 +14,7 @@
 
 
 """ scenarioGenerator -
-Python package for statistical analysis and visualization of correlation matrixes """
+Python package for the generation of scenarios from vector autoregressive models """
 
 import os
 from .model import *

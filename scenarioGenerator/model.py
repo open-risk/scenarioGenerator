@@ -21,7 +21,6 @@ import numpy as np
 
 
 class scenarioGenerator:
-
     """ The _`scenarioGenerator` object implements a scenario generator
     Currently the only class of models supported is are Vector Autoregressions (VAR)
 
