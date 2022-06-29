@@ -20,11 +20,11 @@ Basic Example
 """
 
 import json
-import pandas as pd
+
 import numpy as np
+
 import scenarioGenerator as sg
 from scenarioGenerator import source_path
-
 
 input_dataset_path = source_path + "datasets/"
 output_dataset_path = source_path + "datasets/"
