@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# (c) 2019 Open Risk, all rights reserved
+# (c) 2019 - 2023 Open Risk, all rights reserved
 #
 # scenarioGenerator is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of correlationMatrix. This is notwithstanding any licenses of
@@ -28,7 +28,6 @@ from scenarioGenerator import source_path
 
 input_dataset_path = source_path + "datasets/"
 output_dataset_path = source_path + "datasets/"
-
 
 print("> Load a correlation matrix")
 input_filename = output_dataset_path + 'correlation_data.json'

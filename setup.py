@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# (c) 2019 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2023 Open Risk (https://www.openriskmanagement.com)
 #
 # scenarioGenerator is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of scenarioGenerator. This is notwithstanding any licenses of
@@ -50,9 +50,7 @@ setup(name='scenarioGenerator',
           'License :: OSI Approved :: Apache Software License',
           'Operating System :: OS Independent',
           'Programming Language :: Python :: 3 :: Only',
-          'Programming Language :: Python :: 3.3',
-          'Programming Language :: Python :: 3.4',
-          'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.10',
           'Topic :: Scientific/Engineering',
           'Topic :: Scientific/Engineering :: Information Analysis'
       ]
