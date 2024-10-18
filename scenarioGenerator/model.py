@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# (c) 2019 - 2023 Open Risk (https://www.openriskmanagement.com)
+# (c) 2019 - 2024 Open Risk (https://www.openriskmanagement.com)
 #
 # scenarioGenerator is licensed under the Apache 2.0 license a copy of which is included
 # in the source distribution of scenarioGenerator. This is notwithstanding any licenses of
@@ -46,7 +46,7 @@ class scenarioGenerator:
         else:
             self.Omega = np.ones(dim)
 
-        # temporary dimension assignment (must validated for squareness)
+        # temporary dimension assignment (must validate for squareness)
         self.dimension = dim
         self.L = np.asarray(Omega)
 
