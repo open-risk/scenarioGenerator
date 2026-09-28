@@ -1,3 +1,3 @@
 ## ScenarioGenerator
 
-A python library for generating macro-economic scenarios (under development)
+A python library for generating macroeconomic scenarios (under development)
